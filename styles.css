@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://static.vecteezy.com/system/resources/previews/010/323/185/non_2x/green-grass-field-with-blue-sky-ad-white-cloud-nature-landscape-background-free-photo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #ffffffee;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 900px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #226622;
+}
+
+.instructions {
+  background: #eaffec;
+  border-left: 5px solid #44aa66;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  text-align: left;
+  border-radius: 10px;
+  color: #333;
+}
+
+input {
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: #44aa66;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f6fff4;
+  border: 1px solid #b0ddb5;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #222;
+  text-align: left;
+}
+
+.highlight {
+  background: yellow;
+}
